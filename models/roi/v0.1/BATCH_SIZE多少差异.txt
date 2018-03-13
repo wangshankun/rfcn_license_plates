@@ -1,0 +1,51 @@
+改变rfcn配置训练BATCH_SIZE的不同测试结果
+input尺寸均为360x216
+
+BATCH_SIZE=16,配置迭代5000次结果
+blue 89 123 0.723577235772
+yellow 0 1 0.0
+89 124 0.717741935484
+whole image stat:
+66 100 0.66
+
+BATCH_SIZE=32,配置迭代5000次结果
+blue 103 123 0.837398373984
+yellow 0 1 0.0
+103 124 0.83064516129
+whole image stat:
+80 100 0.8
+
+BATCH_SIZE=64,配置迭代5000次结果
+blue 93 123 0.756097560976
+yellow 0 1 0.0
+93 124 0.75
+whole image stat:
+70 100 0.7
+
+BATCH_SIZE=128,配置迭代5000次结果
+blue 96 123 0.780487804878
+yellow 0 1 0.0
+96 124 0.774193548387
+whole image stat:
+74 100 0.74
+
+BATCH_SIZE=256,配置迭代5000次结果
+blue 90 123 0.731707317073
+yellow 0 1 0.0
+90 124 0.725806451613
+whole image stat:
+68 100 0.68
+
+BATCH_SIZE=512,配置迭代5000次结果
+blue 100 123 0.813008130081
+yellow 0 1 0.0
+100 124 0.806451612903
+whole image stat:
+79 100 0.79
+
+BATCH_SIZE=2048,配置迭代5000次结果
+blue 92 123 0.747967479675
+yellow 0 1 0.0
+92 124 0.741935483871
+whole image stat:
+69 100 0.69
