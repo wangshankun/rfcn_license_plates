@@ -1,6 +1,27 @@
 改变rfcn配置训练Anchor base_size的不同测试结果
 input尺寸均为360x216,BATCH_SIZE=32
 
+base_size=8,配置迭代5000次结果
+blue 2 123 0.0162601626016
+yellow 0 1 0.0
+2 124 0.0161290322581
+whole image stat:
+1 100 0.01
+
+base_size=6,配置迭代5000次结果
+blue 38 123 0.308943089431
+yellow 0 1 0.0
+38 124 0.306451612903
+whole image stat:
+30 100 0.3
+
+base_size=5,配置迭代5000次结果
+blue 52 123 0.422764227642
+yellow 0 1 0.0
+52 124 0.41935483871
+whole image stat:
+36 100 0.36
+
 base_size=4,配置迭代5000次结果
 blue 103 123 0.837398373984
 yellow 0 1 0.0
@@ -21,3 +42,4 @@ yellow 0 1 0.0
 19 124 0.153225806452
 whole image stat:
 12 100 0.12
+
